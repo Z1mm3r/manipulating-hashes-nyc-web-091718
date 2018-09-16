@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-contacts = contacts.collect do |name,info|
+  contacts["Freddy Mercury"][favorite_icecream_flavors].delete_if()
   
-  contacts[name][:favorite_icecream_flavors].each
+  
   
 end
 
