@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-contacts.collect do |name,info|
+contacts = contacts.collect do |name,info|
   
-  favorite_icecream_flavors.
+  contacts[name][:favorite_icecream_flavors].each
   
 end
 
