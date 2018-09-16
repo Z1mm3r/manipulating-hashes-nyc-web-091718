@@ -13,7 +13,11 @@ def first_challenge
     }
   }
 
-  #your code here
+contacts.collect do |name,info|
+  
+  favorite_icecream_flavors.
+  
+end
 
 
   #remember to return your newly altered contacts hash!
